@@ -11,7 +11,7 @@ An implmentation of modified Gram-Schmidt Process for QR-Factorization in Python
 
 Example 1
 ----------
-```
+```python
 >>> A = np.matrix('1 0; 0 1')
 
 >>> Q,R = gram_schmidt.gram_schmidt(A)
@@ -30,7 +30,7 @@ Example 1
 
 Example 2
 ----------
-```
+```python
 >>> A = np.matrix('1 0; 1 2')
 
 >>> Q,R = gram_schmidt.gram_schmidt(A)
@@ -49,7 +49,7 @@ Example 2
 
 Example 3
 ----------
-```
+```python
 >>> A = np.matrix('2 3 4; 1 3 0; 0 0 1')
 >>> Q,R = gram_schmidt.gram_schmidt(A)
 >>> Q
